@@ -1,0 +1,5 @@
+<h1>This is the description for the question: {{question?.description}}</h1>
+<h2>The correct answer will be recognized with: {{question?.questValue}} number of tokens.</h2>
+
+<input [ngModel]="currentAnswer">
+<button (click)="submitAnswer()">Submit answer</button>
